@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+	background-color: #B0A41F;
+}
+
+.banner-img{
+	height: 300px;
+    background-image: url("imgs/girl and sunshine.jpg");
+    background-size: 1500px 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar{
+    /*background-color: #FFF1A5;*/
+	width: 1500px;
+    margin: auto;
+    height: 38px;
+}
+
+.nav-left{
+	width: 60%;
+    float: left;
+}
+
+.nav-right{
+	width: 40%;
+    float: right;
+}
+
+ul a{
+	margin-right: -5px;
+	text-align: center;
+}
+
+.nav-left ul li{
+	width: 100px;
+    display: inline-block;
+    padding: 10px;
+	list-style-type: none;
+}
+
+.nav-left ul li:hover{
+	background-color: #000;
+	color: #DDEB39;
+}
+
+.nav-right ul li{
+	width: 100px;
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    float: right;
+}
+
+.nav-right ul li:hover{
+	background-color: #000;
+	color: #DDEB39;
+}
+
+.body-content{
+	/*background-color: #000;*/
+	margin: auto;
+    height: 800px;
+	width: 1500px;
+}
+
+.body-left{
+	width: 30%;
+    height: 100%;
+    /* background-color: #66493E; */
+    float: left;
+}
+
+.body-right{
+	width: 70%;
+    height: 100%;
+    /* background-color: #66493E; */
+    float: right;
+    margin: auto;
+}
+
+.albums{
+	text-align: center;
+}
+
+.per-album{
+	text-align: center;
+    width: 23%;
+    display: inline-block;
+    margin: 30px 8px 30px 8px;
+}
+
+.artist{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.artist img{
+	width: 100%;
+}
+
+.per-album strong{
+	font-size: 28px;
+    font-family: sans-serif;
+}
+
+.footer{
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
